@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -60,28 +61,54 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Kimanje Patrick.</h2>;
+  const three = <h3 className="big-heading">Tech innovator and gamer.</h3>;
+
+  const skills_in_intro = [
+    'Node.js',
+    'Next.js',
+    'React.js',
+    'Docker',
+    'Python',
+    'AWS',
+    'MongoDB',
+    'Kafka',
+  ];
+
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I am a highly proficient Full Stack Developer with 5 years of hands-on experience in
+        designing and implementing enterprise-level systems. With expertise in technologies like
+        {skills_in_intro.map((skill, i) => (
+          <span key={i} style={{ color: '#ccd6f6' }}>
+            {' '}
+            {skill}
+            {i === skills_in_intro.length - 1 ? '. ' : ','}
+          </span>
+        ))}
+        I have successfully contributed to all phases of the software development life cycle. My
+        strong problem-solving skills, quick learning ability, and collaborative mindset make me a
+        valuable asset in any agile team.
+      </p>
+      <p>
+        When I'm not at my computer, you can find me indulging in competitive video games like FIFA.
+        My deep-rooted passion for gaming has propelled me to co-found{' '}
+        <a href="https://swarmbyte.com/" target="_blank" rel="noreferrer">
+          SwarmByte
+        </a>{' '}
+        and develop{' '}
+        <a href="https://kapeesa.com/" target="_blank" rel="noreferrer">
+          Kapeesa
         </a>
-        .
+        , a revolutionary gaming platform that aims to enhance the gaming experience by connecting
+        gamers worldwide.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href={`mailto:${email}`}>
+      Get in touch!
     </a>
   );
 

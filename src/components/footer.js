@@ -122,6 +122,11 @@ const Footer = () => {
           )}
         </a>
       </StyledCredit>
+      <StyledCredit tabindex="-1">
+        <a href="https://github.com/drkimpatrick">
+          <div style={{ paddingTop: '10px' }}>Revised &amp; by Kimanje Patrick</div>
+        </a>
+      </StyledCredit>
     </StyledFooter>
   );
 };
