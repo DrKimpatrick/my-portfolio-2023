@@ -60,7 +60,7 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1 style={{ marginTop: '150px' }}>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Kimanje Patrick.</h2>;
   const three = <h3 className="big-heading">Tech innovator and gamer.</h3>;
 

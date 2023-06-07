@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Kimanje Patrick',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'I am a highly skilled Full Stack Developer with expertise in Node.js, Express.js, React.js, and Python (Django, Flask). With a proven track record of designing and implementing enterprise-level systems, I bring valuable experience to every project. My problem-solving abilities, quick learning, and collaborative mindset make me an asset to any agile team. Additionally, as a passionate gamer, I co-founded SwarmByte and created Kapeesa, a groundbreaking gaming platform that connects gamers worldwide. Let\'s revolutionize the gaming landscape together.',
+    siteUrl: 'https://drkimpatrick.swarmbyte.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Kimanje Patrick',
+        short_name: 'Kimanje Patrick',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

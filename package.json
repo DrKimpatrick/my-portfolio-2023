@@ -1,14 +1,17 @@
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Kimanje Patrick",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Kimanje Patrick <patrick.kimanje@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/drkimpatrick/my-portfolio-2023"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "drkimpatrick",
+    "Kimanje Patrick",
+    "portfolio"
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
