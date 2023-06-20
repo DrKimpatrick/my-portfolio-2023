@@ -3,7 +3,7 @@ date: '3'
 title: 'UncleBob'
 cover: './UB.png'
 external: 'https://unclebob.org/'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+cta: 'https://play.google.com/store/apps/details?id=com.unclebob&hl=en&gl=US'
 tech:
   - Node.js
   - Express

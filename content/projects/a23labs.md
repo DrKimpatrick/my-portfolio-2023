@@ -12,7 +12,7 @@ tech:
   - PostgreSQL
 
 company: 'A23 Labs'
-showInProjects: false
+showInProjects: true
 ---
 
 USSD application that simplifies the creation of a user menu. The application is used by companies to create a menu for e.g customer care, surveys, etc. The application also provides analytics for the menu.

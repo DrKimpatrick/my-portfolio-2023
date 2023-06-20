@@ -2,13 +2,13 @@
 date: '1'
 title: 'Afro mobile'
 cover: './afromobile.png'
-# github: 'https://github.com/bchiang7/halcyon-site'
+github: ''
 external: 'https://afromobile.com/#/
 '
 tech:
   - Django
   - Redis
-  - TypeScript
+  - TypeScripts
   - Docker
   - S3
   - CloudFront

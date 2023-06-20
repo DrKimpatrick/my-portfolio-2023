@@ -10,7 +10,7 @@ tech:
   - Express
   - Node
   - EC2
-showInProjects: false
+showInProjects: true
 ---
 
 Swarmbyte is a software company with a mission to revolutionize industries through the creation of outstanding software products. We are dedicated to pushing the boundaries of innovation and delivering exceptional technology solutions that make a meaningful impact in people's lives

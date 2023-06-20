@@ -2,7 +2,7 @@
 date: '2'
 title: 'Kapeesa'
 cover: './kapeesa.png'
-# github: 'https://github.com/bchiang7/spotify-profile'
+github: ''
 external: 'https://kapeesa.com/'
 tech:
   - Kafka

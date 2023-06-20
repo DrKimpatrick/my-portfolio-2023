@@ -12,7 +12,7 @@ tech:
   - TailwindCSS
   - Docker
 company: 'Snow media'
-showInProjects: false
+showInProjects: true
 ---
 
 Collaborated with a team of developers to build a platform that connects tech talent to companies.
