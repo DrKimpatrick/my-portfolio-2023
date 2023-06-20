@@ -7,7 +7,7 @@ module.exports = {
       'I am a highly skilled Full Stack Developer with expertise in Node.js, Express.js, React.js, and Python (Django, Flask). With a proven track record of designing and implementing enterprise-level systems, I bring valuable experience to every project. My problem-solving abilities, quick learning, and collaborative mindset make me an asset to any agile team. Additionally, as a passionate gamer, I co-founded SwarmByte and created Kapeesa, a groundbreaking gaming platform that connects gamers worldwide. Let\'s revolutionize the gaming landscape together.',
     siteUrl: 'https://drkimpatrick.swarmbyte.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@drkimpatrick',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/logo2.png',
       },
     },
     `gatsby-plugin-offline`,
