@@ -18,6 +18,10 @@ const StyledHeroSection = styled.section`
     padding-top: var(--nav-height);
   }
 
+  @media (max-width: 768px) {
+    margin-top: 250px;
+  }
+
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
@@ -47,6 +51,12 @@ const StyledHeroSection = styled.section`
   }
 `;
 
+const GetInTouchButton = styled.a`
+  @media (max-width: 768px) {
+    margin-bottom: 150px;
+  }
+`;
+
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -60,7 +70,7 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1 style={{ marginTop: '150px' }}>Hi, my name is</h1>;
+  const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Kimanje Patrick.</h2>;
   const three = <h3 className="big-heading">Tech innovator and gamer.</h3>;
 
@@ -107,9 +117,10 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href={`mailto:${email}`}>
+    // to do: add margin-bottom 150px on condition that screen height is greater than 700px
+    <GetInTouchButton className="email-link" href={`mailto:${email}`}>
       Get in touch!
-    </a>
+    </GetInTouchButton>
   );
 
   const items = [one, two, three, four, five];
