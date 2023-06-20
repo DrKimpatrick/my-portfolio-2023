@@ -19,7 +19,7 @@ const StyledHeroSection = styled.section`
   }
 
   @media (max-width: 768px) {
-    margin-top: 250px;
+    margin-top: 180px;
   }
 
   h1 {
